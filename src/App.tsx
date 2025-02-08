@@ -30,7 +30,7 @@ function App() {
       <ScrollProgress />
       <Navigation onSectionClick={scrollToSection} />
 
-      {/* Custom Horizontal Parallax Background */}
+      {/* ✅ Custom Horizontal Parallax Background */}
       <motion.div
         className="absolute inset-0 w-[200%] h-full bg-cover bg-center"
         style={{
